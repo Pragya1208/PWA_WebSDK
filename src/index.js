@@ -13,8 +13,9 @@ import clevertap from 'clevertap-web-sdk';
 import App from "./App";
 
 clevertap.privacy.push({ optOut: false });
-clevertap.init('W9R-486-4W5Z');
+clevertap.init('W6W-797-865Z','sk1');
 clevertap.setLogLevel(3);
+clevertap.spa = true;
 
 
 
